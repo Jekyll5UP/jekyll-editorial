@@ -20,6 +20,9 @@ postscripts:
       - main.js
 
 icons:
- basePath: /assets/images/favicons/
- sizes: [180x180, ]
+  basePath: /assets/images/favicons/
+  sizes: [180x180, 152x152, 144x144, 120x120, 114x114, 76x76, 72x72, 57x57]
+
 webfonts:
+  - id: Expletus Sans
+    path: https://fonts.googleapis.com/css2?family=Expletus+Sans&display=swap

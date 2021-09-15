@@ -11,7 +11,9 @@
 {% assign webfonts = "head/webfonts.html" %}
 
 <head>
- {% include {{ title }} %}
+ {% include {{ title }} delimiter="@" %}
  {% include {{ stylesheets }} %}
  {% include {{ meta }} %}
+ {% include {{ icons }} %}
+ {% include {{ webfonts }} %}
 </head>

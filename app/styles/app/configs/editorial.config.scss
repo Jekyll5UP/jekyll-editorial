@@ -5,28 +5,28 @@ $misc: (
 
 // Duration.
 $duration: (
-  nav: 0.5s,
-  transition: 0.2s,
+  nav: 0.3s,
+  transition: 0.7s,
 );
 
 // Size.
 $size: (
-  border-radius: 0.375em,
-  element-height: 2.75em,
-  element-margin: 2em,
-  sidebar-width: 26em,
+  border-radius: 0.675em,
+  element-height: .75em,
+  element-margin: 3em,
+  sidebar-width: 24em,
   sidebar-width-alt: 24em,
-  gutter: 3em,
+  gutter: 3.3em,
 );
 
 // Font.
 $font: (
   family: (
-    "Open Sans",
+    "Expletus Sans",
     sans-serif,
   ),
   family-heading: (
-    "Roboto Slab",
+    "Expletus Sans",
     serif,
   ),
   family-fixed: (
@@ -42,12 +42,12 @@ $font: (
 
 // Palette.
 $palette: (
-  bg: #ffffff,
+  bg: #000000,
   bg-alt: #f5f6f7,
-  fg: #7f888f,
+  fg: #ffffff,
   fg-bold: #3d4449,
   fg-light: #9fa3a6,
-  border: rgba(210, 215, 217, 0.75),
+  border: rgba(145, 0, 0, 0.75),
   border-bg: transparentize(#e6ebed, 0.75),
-  accent: #f56a6a,
+  accent: #011099,
 );
