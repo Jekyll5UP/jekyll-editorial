@@ -1,13 +1,13 @@
 // Misc.
 	$misc: (
 		z-index-base:		10000
-	);
+	) !default;
 
 // Duration.
 	$duration: (
 		nav:				0.5s,
 		transition:			0.2s
-	);
+	) !default;
 
 // Size.
 	$size: (
@@ -17,7 +17,7 @@
 		sidebar-width:		26em,
 		sidebar-width-alt:	24em,
 		gutter:				3em
-	);
+	) !default;
 
 // Font.
 	$font: (
@@ -29,7 +29,7 @@
 		weight-heading:		700,
 		weight-heading-alt:	400,
 		kerning-heading:	0.075em
-	);
+	) !default;
 
 // Palette.
 	$palette: (
@@ -41,4 +41,4 @@
 		border:				rgba(210,215,217,0.75),
 		border-bg:			transparentize(#e6ebed, 0.75),
 		accent:				#f56a6a
-	);
+	) !default;

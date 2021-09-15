@@ -1,5 +1,25 @@
-stylesheets: 
- - ns: main
-   basePath: /assets/styles/
-   resources: 
-    - main.css
+stylesheets:
+  - ns: main
+    basePath: /assets/styles/
+    resources:
+      - main.css
+
+postscripts:
+  - ns: editorial
+    basePath: /assets/scripts/modules/editorial/
+    resources:
+      - jquery.min.js
+      - breakpoints.min.js
+      - browser.min.js
+      - util.js
+      - main.js
+
+  - ns: controllers
+    basePath: /assets/scripts/modules/controllers/
+    resources:
+      - main.js
+
+icons:
+ basePath: /assets/images/favicons/
+ sizes: [180x180, ]
+webfonts:
