@@ -1,4 +1,4 @@
-$primary-color: #000018;
+$primary-color: #a5a554;
 $primary-color-dark: darken($primary-color, 3%);
 $primary-color-light: lighten($primary-color, 3%);
 $secondary-color: lighten($primary-color, 37.5%);
@@ -6,7 +6,7 @@ $secondary-color-dark: darken($secondary-color, 3%);
 $secondary-color-light: lighten($secondary-color, 3%);
 
 // Gray colors
-$dark-color: #110101;
+$dark-color: #ffffff;
 $light-color: rgb(0, 0, 0);
 $gray-color: lighten($dark-color, 55%);
 $gray-color-dark: darken($gray-color, 30%);
