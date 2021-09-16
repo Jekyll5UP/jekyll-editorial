@@ -1,6 +1,13 @@
+<!-- ⚠️ This README has been generated from the file(s) "SCHEMA.md" ⚠️--><h1>jekyll-editorial</h1>
+<h2>TL;DR</h2>
+
+<h2>License</h2>
+
+> This project is under the MIT License. 
+
 MIT License
 
-Copyright (c) 2021 JEKYLL5UP
+Copyright c 2021 JEKYLL5UP
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
