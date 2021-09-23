@@ -14,8 +14,8 @@
     "type": "git",
     "url": "git+https://github.com/JEKYLL5UP/jekyll-editorial.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Jeffrey Desir",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/JEKYLL5UP/jekyll-editorial/issues"
   },

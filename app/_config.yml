@@ -9,3 +9,6 @@ sass:
 
 plugins:
   - jekyll-feed
+  - jekyll-datapage-generator
+  - jekyll-redirect-from
+  - jekyll-loading-lazy

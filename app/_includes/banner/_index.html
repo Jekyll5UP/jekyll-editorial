@@ -1,12 +1,29 @@
+{% comment %}
+ id: head
+ type: partial
+ version: 11.11.11
+{% endcomment %}
+
+{% assign @banners = site.data.banners %}
+
+{% assign SOURCE = page.banner.data.source %}
+
+{% if SOURCE != null %}
+ {% assign PARAMS = @banners[SOURCE] %}
+ {% else %}
+ {% assign PARAMS = page.banner %}
+{% endif %}
+
 <section id="banner">
     <div class="content">
+
+     {% assign header = PARAMS.header %}
       <header>
-        <h1>
-          Hi, I’m Editorial<br />
-          by HTML5 UP
-        </h1>
+        <h1>{{ header.title }}</h1>
+
         <p>A free and fully responsive site template</p>
       </header>
+      
       <p>
         Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
         aliquam facilisis ante interdum congue. Integer mollis, nisl
